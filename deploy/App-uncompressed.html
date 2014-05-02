@@ -10,7 +10,6 @@
                 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
     componentCls: 'app',
-    items:{ html:'<a href="https://help.rallydev.com/apps/2.0rc2/doc/">App SDK 2.0rc2 Docs</a>'},
     launch: function(){
 	console.log("Hello World");
 	this._loadData();
@@ -38,11 +37,10 @@
 	    store: myStore,
 	    columnCfgs: [
 		 'FormattedID', 'Name', 'ScheduleState'
-	     ]
+	    ]
 	});
 	this.add(myGrid);
-	console.log("What is this?", this);
-	
+	console.log("What is this?", this);	
     }
 });
 

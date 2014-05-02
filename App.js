@@ -28,11 +28,10 @@ Ext.define('CustomApp', {
 	    store: myStore,
 	    columnCfgs: [
 		 'FormattedID', 'Name', 'ScheduleState'
-	     ]
+	    ]
 	});
 	this.add(myGrid);
-	console.log("What is this?", this);
-	
+	console.log("What is this?", this);	
     }
 });
 
